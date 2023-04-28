@@ -8,9 +8,6 @@ from rest_framework.views import APIView
 from products.models import Products, User
 from products.serializers import ProductSerializer
 
-
-
-
 class ProductViewSet(viewsets.ViewSet):
 
     def list(self,request):
